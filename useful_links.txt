@@ -1,0 +1,3 @@
+https://github.com/public-apis/public-apis#music
+https://machinelearningknowledge.ai/tutorial-how-to-use-spotipy-api-to-scrape-spotify-data/
+https://developer.spotify.com/documentation/
