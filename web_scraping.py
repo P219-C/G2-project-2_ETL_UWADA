@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import pandas as pd
 
 # URL of pages to be scraped
 hot_url = "https://www.billboard.com/charts/hot-100/"
@@ -40,9 +41,6 @@ for result in hot_results:
         hot_song = hot_song[1:len(hot_song)-1]
         hot_artist = hot_artist[1:len(hot_artist)-1]
         hot_ranking = hot_ranking[1:len(hot_ranking)-1]
-
-        
-
         hot_list.append([hot_ranking, hot_artist, hot_song])
         # print(f'{hot_ranking}.- "{hot_song}" by {hot_artist}')
 
@@ -52,5 +50,14 @@ for result in hot_results:
 
 # print(len(hot_list))
 
-for hot_entry in hot_list:
-    print(hot_entry)
+# for hot_entry in hot_list:
+#     print(hot_entry)
+
+#date
+from datetime import datetime
+scrapped_date = datetime.today().strftime('%Y-%m-%d')
+    
+#saving hot_list in a csv file
+df = pd.DataFrame(hot_list, columns = ["song_ranking", "artist_name", "song_title"])
+
+df.to_csv(f'Data sources/scrapped_top100({scrapped_date}).csv')
