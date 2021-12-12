@@ -11,14 +11,11 @@ The objective is to perform the ETL (Extract-Transform-Load) process by reading 
 # Steps
 We have performed ETL in three steps:
 
-1. Extraction
-The data has been downloaded from public platform and formatted as .csv files.
+1. Extraction - the data has been downloaded from public platform and formatted as .csv files.
 
-2. Transformation
-Python has been used as the tool for transformation of datasets using the Pandas Library.
+2. Transformation - python has been used as the tool for transformation of datasets using the Pandas Library.
 
-3. Loading
-Relational database PostgresSQL has been used to load the data.
+3. Loading - relational database PostgresSQL has been used to load the data.
 
 # ERD and Data Dictionary
 # Entity Relationship Diagram
