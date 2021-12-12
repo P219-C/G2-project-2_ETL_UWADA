@@ -1,35 +1,29 @@
 Artist
 --
 artist_id pk INTEGER
-artist_name VARCHAR FK >- Concert.artist_name
-artist_ranking INTEGER
-birth_place VARCHAR
+artist_name VARCHAR
+artist_ranking pk INTEGER
 gender VARCHAR
 age DATA
 
 Songs
 --
-artist_id INTEGER FK >- Artist.artist_id
+song_ranking pk INTEGER
 song_title VARCHAR
 artist_name VARCHAR
-album_name VARCHAR
-song_ranking INTEGER
+artist_id INTEGER FK >- Artist.artist_id
+album_name VARCHAR FK >- Album.album_name
 duration INTEGER
+song_release_date DATA
 
 Album
 --
-artist_name pk INTEGER FK >- Songs.artist_name
-album_name VARCHAR
-release_year DATA
+album_name pk VARCHAR
+artist_name VARCHAR
 
 Concert
 --
-artist_name pk VARCHAR
+artist_name pk VARCHAR FK >- Artist.artist_name
 venue VARCHAR
 location VARCHAR
 date DATA
-
-Genres
---
-genres_id INTEGER
-genres_name VARCHAR
