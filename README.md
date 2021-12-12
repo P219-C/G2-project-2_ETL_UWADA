@@ -1,12 +1,39 @@
 # G2-project-2_ETL_UWADA
 Group 2 - ETL project
 
-# Purpose
-XXXXXXXX
+# Objective
+The objective is to perform the ETL (Extract-Transform-Load) process by reading the dataset of Billboard, cleaning the dataset in the desired form and loading into a database for storage.
 
-# ERD and 
+# Data Sources
+- *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
+- *The Artist 100* - **Web Scraping** - https://www.billboard.com/charts/artist-100/# Steps
+
+# Steps
+We have performed ETL in three steps:
+
+# 1. Extraction
+The data has been downloaded from public platform and formatted as .csv files.
+
+# 2. Transformation
+Python has been used as the tool for transformation of datasets using the Pandas Library.
+
+# 3. Loading
+Relational database PostgresSQL has been used to load the data.
+
+# ERD and Data Dictionary
+# Entity Relationship Diagram
+
+The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
+
 ![test](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export.png)
 
-## Data Sources
-- *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
-- *The Artist 100* - **Web Scraping** - https://www.billboard.com/charts/artist-100/
+# Data Dictionary
+Below are the data definitions for the following tables:
+
+# Song
+
+# Artist
+
+# Album
+
+
