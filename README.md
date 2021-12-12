@@ -2,6 +2,8 @@
 Group 2 - ETL project
 
 ## Purpose and motivation
+The following ETL (Extract, Transform, Load) exercise creates a database with information of the top 100 songs (*The Hot 100*) from *The Billboard* (https://www.billboard.com/charts/hot-100/).
+
 
 ## Solution
 
@@ -17,7 +19,9 @@ Group 2 - ETL project
 #### Entity Relationship Diagram
 #### Data dictionary
 
+
 ## Usage
+
 ### Python requirements / dependencies
 ### How to run the code locally
 ### How to run unit tests
