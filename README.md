@@ -29,8 +29,16 @@ The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 Below are the data definitions for the following tables:
 
 # Song
-
-# Artist
+<b>`song`</b>
+|Column name| Definition | 
+|-|-|
+|song_ranking|The ranking of the song| 
+|song_title| The name of the song |
+|artist_name| The name of the artist |
+|artist_id| The unique id for each artist|
+|album_name| The name of the album |
+|duration| The duration of the song |
+|song_release_date| The date song was released dd-mm-yyyy|
 
 # Album
 
