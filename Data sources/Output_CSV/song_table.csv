@@ -1,0 +1,101 @@
+song_ID,song_title,artist_name,song_ranking,spotify_popularity,track_spotify_ID,song_duration[ms],album_name,song_release_date
+1,Easy On Me,Adele,1,100,0gplL1WMoJ6iYaPgMCL0gX,224694,Easy On Me,2021-10-14
+2,Stay,The Kid LAROI & Justin Bieber,2,98,5HCyWlXZPP0y6Gqq8TgA20,141805,STAY (with Justin Bieber),2021-07-09
+3,All I Want For Christmas Is You,Mariah Carey,3,96,0bYg9bo50gSsH3LtXe2SQn,241106,Merry Christmas,1994-11-01
+4,Rockin' Around The Christmas Tree,Brenda Lee,4,92,2EjXfH91m7f8HiJN1yQg97,126266,Merry Christmas From Brenda Lee,1964-10-19
+5,Jingle Bell Rock,Bobby Helms,5,92,7vQbuQcyTflfCIOu3Uzzya,130973,Jingle Bell Rock/Captain Santa Claus (And His Reindeer Space Patrol),1957-12-02
+6,Industry Baby,Lil Nas X & Jack Harlow,6,97,27NovPIUIRrOZoCHxABJwK,212000,INDUSTRY BABY (feat. Jack Harlow),2021-07-23
+7,A Holly Jolly Christmas,Burl Ives,7,84,77khP2fIVhSW23NwxrRluh,135533,Have A Holly Jolly Christmas,1965-01-01
+8,Heat Waves,Glass Animals,8,90,3USxtqRwSYz57Ewm6wWRMp,238805,Dreamland,2020-08-07
+9,Shivers,Ed Sheeran,9,95,50nfwKoDiSYg8zOCREWAm5,207853,=,2021-10-29
+10,Need To Know,Doja Cat,10,94,3Vi5XqYrmQgOYBajMWSvCi,210560,Planet Her,2021-06-25
+11,It's The Most Wonderful Time Of The Year,Andy Williams,11,90,5hslUAKq9I9CG2bAulFkHN,151933,The Andy Williams Christmas Album,1963-11-24
+12,Bad Habits,Ed Sheeran,12,94,3rmo8F54jFF8OgYsqTxm5d,230746,=,2021-10-29
+13,Cold Heart (PNAU Remix),Elton John & Dua Lipa,13,97,6zSpb8dQRaw0M1dK8PBwQz,202735,Cold Heart (PNAU Remix),2021-08-13
+14,Smokin Out The Window,Silk Sonic (Bruno Mars & Anderson .Paak),14,91,4iN16F8JtVxG2UTzp3avGl,197442,Smokin Out The Window,2021-11-05
+15,Last Christmas,Wham!,15,92,2FRnf9qhLbvw8fu4IBXx78,262960,LAST CHRISTMAS,1984-11-29
+16,Feliz Navidad,Jose Feliciano,16,83,0oPdaY4dXtc3ZsaG17V972,182066,Feliz Navidad,2002-09-24
+17,Christmas (Baby Please Come Home),Darlene Love,17,84,3PIDciSFdrQxSQSihim3hN,153240,Merry Christmas,1994-11-01
+18,The Christmas Song (Merry Christmas To You),Nat King Cole,18,87,4PS1e8f2LvuTFgUs1Cn3ON,192160,The Christmas Song (Expanded Edition),1962
+19,Sleigh Ride,The Ronettes,19,87,5ASM6Qjiav2xPe7gRkQMsQ,181266,A Christmas Gift For You From Phil Spector,1963
+20,It's Beginning To Look A Lot Like Christmas,Michael Buble,20,86,2pXpURmn6zC5ZYDMms6fwa,155933,Greatest Christmas Songs,1999-08-20
+21,All Too Well (Taylor's Version),Taylor Swift,21,96,5enxwA8aAbwZbf5qCHORXi,613026,Red (Taylor's Version),2021-11-12
+22,"Let It Snow, Let It Snow, Let It Snow",Dean Martin,22,88,4kKdvXD0ez7jp1296JmAts,155453,Christmas Songs by Sinatra,1994-11-08
+23,Fancy Like,Walker Hayes,23,83,3ZozFqJJlDBNIm4xqxn2ZD,161853,Country Stuff,2021-06-04
+24,abcdefu,GAYLE,24,96,4fouWK6XVHhzl78KzQ1UjL,168601,abcdefu,2021-08-13
+25,White Christmas,Bing Crosby,25,85,4so0Wek9Ig1p6CRCHuINwW,177480,Holiday Inn (Original Motion Picture Soundtrack),1942-01-01
+26,Good 4 U,Olivia Rodrigo,26,96,4ZtFanR9U6ndgddUvNcjcG,178146,SOUR,2021-05-21
+27,Underneath The Tree,Kelly Clarkson,27,80,3YZE5qDV7u1ZD1gZc47ZeR,229640,Wrapped In Red,2013-10-29
+28,Essence,Wizkid Featuring Justin Bieber & Tems,28,79,5FG7Tl93LdH117jEKYl3Cm,248040,Made In Lagos,2020-10-29
+29,You Right,Doja Cat & The Weeknd,29,89,0k4d5YPDr1r7FX77VdqWez,186173,Planet Her,2021-06-25
+30,Happy Holiday / The Holiday Season,Andy Williams,30,79,3sDdyBHQ60Cs1opmIyRvhp,156866,The Andy Williams Christmas Album,1963-11-24
+31,Way 2 Sexy,Drake Featuring Future & Young Thug,31,91,0k1WUmIRnG3xU6fvvDVfRG,257604,Certified Lover Boy,2021-09-03
+32,Beggin',Maneskin,32,95,3Wrjm47oTz2sjIgck11l5e,211560,Chosen,2017-12-08
+33,One Right Now,Post Malone & The Weeknd,33,93,00Blm7zeNqgYLPtW6zg8cj,193506,One Right Now,2021-11-05
+34,Kiss Me More,Doja Cat Featuring SZA,34,91,748mdHapucXQri7IAO8yFK,208866,Kiss Me More (feat. SZA),2021-04-09
+35,Rudolph The Red-Nosed Reindeer,Gene Autry,35,80,47otoIkhx3fkdivEXL5OB6,130026,Have A Holly Jolly Christmas,1965-01-01
+36,Santa Tell Me,Ariana Grande,36,92,0lizgQ7Qw35od7CYaoMBZb,204093,Santa Tell Me,2014-11-24
+37,Oh My God,Adele,37,94,3Kkjo3cT83cw09VJyrLNwX,225148,30,2021-11-19
+38,Save Your Tears,The Weeknd & Ariana Grande,38,92,37BZB0z9T8Xu7U3e65qxFy,191013,Save Your Tears (Remix),2021-04-23
+39,Ghost,Justin Bieber,39,88,135Lf4Q0CzlMNfOxbEUsLH,193733,GHOST TOWN,2021-10-15
+40,Run Rudolph Run,Chuck Berry,40,84,2pnPe4pJtq7689i5ydzvJJ,165733,Rock 'N' Roll Rarities,1986-01-01
+41,Knife Talk,Drake Featuring 21 Savage & Project Pat,41,91,2BcMwX1MPV6ZHP4tUT9uq6,242965,Certified Lover Boy,2021-09-03
+42,If I Didn't Love You,Jason Aldean & Carrie Underwood,42,78,5f3MXmTmstozFg0BH1yPUk,212030,If I Didn't Love You,2021-07-23
+43,Thats What I Want,Lil Nas X,43,94,0e8nrvls4Qqv5Rfa2UhqmO,143901,MONTERO,2021-09-17
+44,Happier Than Ever,Billie Eilish,44,94,4RVwu0g32PAqgUiJoXsdF8,298899,Happier Than Ever,2021-07-30
+45,Better Days,NEIKED X Mae Muller X Polo G,45,91,6f5ExP43esnvdKPddwKXJH,160656,Better Days (NEIKED x Mae Muller x Polo G),2021-09-24
+46,(There's No Place Like) Home For The Holidays,Perry Como,46,75,2GapxG7BxK55ihQRAlR39e,178293,A Perry Como Christmas,2001-05-21
+47,Love Nwantiti (Ah Ah Ah),CKay,47,95,2Xr1dTzJee307rmrkt8c0g,145800,CKay The First,2019-08-30
+48,Meet Me At Our Spot,THE ANXIETY: WILLOW & Tyler Cole,48,92,07MDkzWARZaLEdKxo6yArG,162680,THE ANXIETY,2020-03-13
+49,Thinking 'Bout You,Dustin Lynch Featuring Lauren Alaina Or MacKenzie Porter,49,78,7DhvNzyMM8jJWcfykG3psB,170560,Thinking 'Bout You (feat. MacKenzie Porter),2021-03-19
+50,Girls Want Girls,Drake Featuring Lil Baby,50,87,37Nqx7iavZpotJSDXZWbJ3,221979,Certified Lover Boy,2021-09-03
+51,My Universe,Coldplay x BTS,51,94,3FeVmId7tL5YN8B7R3imoM,228000,My Universe,2021-09-24
+52,Cold As You,Luke Combs,52,78,7IWV29mryrqtO0JVgnPtfv,186106,What You See Ain't Always What You Get (Deluxe Edition),2020-10-23
+53,Who Want Smoke??,"Nardo Wick Featuring G Herbo, Lil Durk & 21 Savage",53,85,4yNoUQkYf1QF8iYlEzNynH,279853,"Who Want Smoke?? (feat. G Herbo, Lil Durk & 21 Savage)",2021-10-08
+54,Buy Dirt,Jordan Davis Featuring Luke Bryan,54,81,69AIpwGNLxr4qS1X5ynx60,167480,Buy Dirt,2021-05-21
+55,Super Gremlin,Kodak Black,55,81,4A8cWXxKfIL3lAyUDzXbCF,200547,Sniper Gang Presents Syko Bob & Snapkatt: Nightmare Babies,2021-10-30
+56,Pepas,Farruko,56,95,5fwSHlTEWpluwOM0Sxnh5k,287120,Pepas,2021-06-24
+57,You Should Probably Leave,Chris Stapleton,57,76,2UikqkwBv7aIvlixeVXHWt,213493,Starting Over,2020-11-13
+58,By Your Side,Rod Wave,58,79,2AaJeBEq3WLcfFW1y8svDf,194050,By Your Side,2021-11-22
+59,Chosen,Blxst & Tyga Featuring Ty Dolla $ign,59,86,1dIWPXMX4kRHj6Dt2DStUQ,161684,No Love Lost (Deluxe),2020-12-04
+60,Same Boat,Zac Brown Band,60,69,2VmccNZz4zFmlcXstY8a2D,190451,Same Boat,2021-06-11
+61,Whiskey And Rain,Michael Ray,61,75,1tf4Bfk8JIKryLpWYRvyiI,206506,Whiskey And Rain,2020-09-25
+62,Have Mercy,Chloe,62,84,5SixeLvPsYpk7qq9lo5xYg,148778,Have Mercy,2021-09-10
+63,Wild Side,Normani Featuring Cardi B,63,81,2vXgyN14LX2zl7JEASw242,209476,Wild Side (feat. Cardi B),2021-07-22
+64,Sand In My Boots,Morgan Wallen,64,79,0uRrG2jRR5tuifsYIJHEao,202133,Dangerous: The Double Album,2021-01-08
+65,One Mississippi,Kane Brown,65,76,4FdPnT2cFrpWCmWZd7GXc3,213718,One Mississippi,2021-08-20
+66,Knowing You,Kenny Chesney,66,69,2EEfUuBRZA4Ax1vYcluFS0,226266,Here And Now,2020-05-01
+67,My Little Love,Adele,67,89,2DuPBbS5mIldXnh7Wum8Cy,389107,30,2021-11-19
+68,Family Ties,Baby Keem & Kendrick Lamar,68,86,7Bpx2vsWfQFBACRz4h3IqH,252069,family ties (with Kendrick Lamar),2021-08-27
+69,Enemy,Imagine Dragons X JID,69,96,1r9xUipOqoNwggBpENDsvJ,173381,Enemy (with JID) [from the series Arcane League of Legends],2021-10-28
+70,Gyalis,Capella Grey,70,76,7wpyrkjEgz7W1vNYDxMKrF,105377,GYALIS,2021-01-04
+71,Big Energy,Latto,71,78,6Zu3aw7FfjAF9WA0fA81Oq,173182,Big Energy,2021-09-24
+72,Sharing Locations,Meek Mill Featuring Lil Baby & Lil Durk,72,82,3J4VKkUpLvomXJbn9ZAypO,161052,Sharing Locations (feat. Lil Baby & Lil Durk),2021-08-27
+73,No Love,Summer Walker & SZA,73,85,08SB2OtZkaliju77WYEKxk,231497,Still Over It,2021-11-05
+74,Can I Get It,Adele,74,90,6w8ZPYdnGajyfPddTWdthN,210384,30,2021-11-19
+75,Already Dead,Juice WRLD,75,88,7qM1BWAsZMTYh4BcYLb0uQ,231010,Already Dead,2021-11-12
+76,I Drink Wine,Adele,76,89,6v0UJD4a2FtleHeSYVX02A,376169,30,2021-11-19
+77,Pick Out A Christmas Tree,Dan + Shay,77,2,0stm5Y4Zln38uik4FuaCro,74110,Cup for Us,2011-10-24
+78,Message In A Bottle (Taylor's Version) (From The Vault),Taylor Swift,78,84,3z6XUommYDWPHeFhmhhT6j,225960,Red (Taylor's Version),2021-11-12
+79,Tequila Little Time,Jon Pardi,79,71,15npbUjCgwt2lRvyrJvyxw,207161,Heartache Medication,2019-09-27
+80,Freedom Was A Highway,Jimmie Allen & Brad Paisley,80,73,3J5jotqUAjU479WhAiNkpU,212720,Bettie James,2020-07-10
+81,Just About Over You,Priscilla Block,81,70,4Ec0q0j8hRTCX4QQ5MiHSX,179213,Just About Over You,2020-09-30
+82,Christmas Tree Farm (Old Timey Version),Taylor Swift,82,,,,,
+83,Bubbly,Young Thug With Drake & Travis Scott,83,84,4KDNRh9Oor80z3XIxdWlui,165066,Punk,2021-10-15
+84,Bad Man (Smooth Criminal),Polo G,84,85,6RfhBNU1FPWTG7VESlfgOl,106000,Bad Man (Smooth Criminal),2021-11-12
+85,For Tonight,Giveon,85,83,61Emqg95O9zo1GNOcyxq4Y,193821,For Tonight,2021-09-24
+86,Fair Trade,Drake Featuring Travis Scott,86,90,40iJIUlhi6renaREYGeIDS,291175,Certified Lover Boy,2021-09-03
+87,Poke It Out,Wale Featuring J. Cole,87,71,1IeCWMwZs4rCmwPOjZYWN7,183333,Poke It Out (feat. J. Cole),2021-09-30
+88,'Til You Can't,Cody Johnson,88,76,4k3lPl8YTKuY8c1HelVnm3,224213,Human The Double Album,2021-10-08
+89, Scorpio,Moneybagg Yo,89,74,0BFGDkrXAneskCJdudSCro,165772,A Gangsta’s Pain: Reloaded,2021-10-22
+90,Woman	,Doja Cat,90,96,6Uj1ctrBOjOas8xZXGqKk4,172626,Planet Her,2021-06-25
+91,Memory I Don't Mess With,Lee Brice,91,70,7BQE1P0NUalHSvFtrxasx9,180616,Memory I Don't Mess With,2020-10-16
+92,Heart On Fire,Eric Church,92,71,0ysCB1Jg4hli0XlEWlipo7,258799,Heart,2021-04-16
+93,Half Of My Hometown,Kelsea Ballerini Featuring Kenny Chesney,93,70,59xdsxc0QGW6TDA3ZuQ9tS,231832,half of my hometown,2021-03-26
+94,Moth To A Flame,Swedish House Mafia & The Weeknd,94,93,2gpWyfu7eZ01zzncHpxOtA,234000,Moth To A Flame,2021-10-22
+95,Always Been You,Jessie Murph,95,80,2zpZkOV7sD9C4Cv0cukoHV,131824,Always Been You,2021-11-24
+96,Who's In Your Head,Jonas Brothers,96,76,5nhW8I46uDE5sc5ouEbzao,183536,Who's In Your Head,2021-09-17
+97,Baddest,"Yung Bleu, Chris Brown & 2 Chainz",97,65,0sr0YMdDTNNr4Lv4VnI3C8,160000,"Sincerely, Kentrell",2021-09-24
+98,Maybach,42 Dugg Featuring Future,98,72,2Qt8qG9SWPdtRiaWcPNJRm,199093,Free Dem Boyz,2021-05-21
+99,Volvi,Aventura x Bad Bunny,99,92,2vmfvSoZBFAt9hhRoEByLi,230125,Volví,2021-08-03
+100,Ex For A Reason,Summer Walker & JT,100,75,1De7cOMrdUnVpjWBaowMg4,225502,Still Over It,2021-11-05
