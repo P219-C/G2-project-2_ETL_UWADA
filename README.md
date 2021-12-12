@@ -28,8 +28,7 @@ The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 # Data Dictionary
 Below are the data definitions for the following tables:
 
-# Song
-<b>`song`</b>
+<b>`Songs`</b>
 |Column name| Definition | 
 |-|-|
 |song_ranking|The ranking of the song| 
@@ -40,6 +39,25 @@ Below are the data definitions for the following tables:
 |duration| The duration of the song |
 |song_release_date| The date song was released dd-mm-yyyy|
 
-# Album
+<b>`Artist`</b>
+|Column name| Definition | 
+|-|-|
+|artist_id| The unique id of the artist |
+|artist_name| The name of the artist|
+|artist_ranking| The ranking of the artist |
+|gender| The gender of the artist |
+|age| The age of artist|
 
+<b>`Album`</b>
+|Column name| Definition | 
+|-|-|
+|artist_name| The name of the artist |
+|artist_id| The unique id for each artist|
 
+<b>`Concert`</b>
+|Column name| Definition | 
+|-|-|
+|artist_name| The name of the artist |
+|venue| The place where the concert took place |
+|location| The location where the concert took place |
+|date| The date when the concert happened |
