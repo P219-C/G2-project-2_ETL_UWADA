@@ -42,11 +42,8 @@ Below are the data definitions for the following tables:
 <b>`Artist`</b>
 |Column name| Definition | 
 |-|-|
-|artist_id| The unique id of the artist |
 |artist_name| The name of the artist|
-|artist_ranking| The ranking of the artist |
-|gender| The gender of the artist |
-|age| The age of artist|
+|artist_spotify_ID| The unique id for each artist |
 
 <b>`Album`</b>
 |Column name| Definition | 
