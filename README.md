@@ -18,6 +18,7 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 ### Load
 #### Entity Relationship Diagram
 ![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(2).png)
+The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 
 #### Data dictionary
 <b>`Songs`</b>
