@@ -73,6 +73,3 @@ Install python dependencies by performing :
 
 pip install -r requirements.txt 
 
-### How to run the code locally
-### How to run unit tests
-### How to schedule jobs
