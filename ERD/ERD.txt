@@ -1,29 +1,30 @@
 Artist
 --
-artist_id pk INTEGER
 artist_name VARCHAR
-artist_ranking pk INTEGER
-gender VARCHAR
-age DATA
+artist_spotify_ID VARCHAR
 
 Songs
 --
-song_ranking pk INTEGER
+song_ID INTEGER
 song_title VARCHAR
-artist_name VARCHAR
-artist_id INTEGER FK >- Artist.artist_id
 album_name VARCHAR FK >- Album.album_name
-duration INTEGER
-song_release_date DATA
+track_spotify_ID VARCHAR
+artist_spotify_ID VARCHAR FK >- Artist.artist_spotify_ID
+song_ranking INTEGER
+spotify_popularity INTEGER
+song_duration(ms) INTEGER
+song_release_date DATE
 
 Album
 --
-album_name pk VARCHAR
-artist_name VARCHAR
+album_name VARCHAR
+album_type pk VARCHAR
 
 Concert
 --
-artist_name pk VARCHAR FK >- Artist.artist_name
+artist_spotify_ID VARCHAR FK >- Artist.artist_spotify_ID
+api_artist VARCHAR
 venue VARCHAR
+country VARCHAR
 location VARCHAR
-date DATA
+datetime DATA
