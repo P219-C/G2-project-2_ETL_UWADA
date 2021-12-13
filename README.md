@@ -20,6 +20,7 @@ We have performed ETL in three steps:
 # ERD and Data Dictionary
 # Entity Relationship Diagram
 
+![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(1).png)
 The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 
 ![test](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export.png)
@@ -27,10 +28,33 @@ The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 # Data Dictionary
 Below are the data definitions for the following tables:
 
-# Song
+<b>`Songs`</b>
+|Column name| Definition | 
+|-|-|
+|song_ranking|The ranking of the song| 
+|song_title| The name of the song |
+|artist_name| The name of the artist |
+|artist_id| The unique id for each artist|
+|album_name| The name of the album |
+|duration| The duration of the song |
+|song_release_date| The date song was released dd-mm-yyyy|
 
-# Artist
+<b>`Artist`</b>
+|Column name| Definition | 
+|-|-|
+|artist_name| The name of the artist|
+|artist_spotify_ID| The unique id for each artist |
 
-# Album
+<b>`Album`</b>
+|Column name| Definition | 
+|-|-|
+|artist_name| The name of the artist |
+|artist_id| The unique id for each artist|
 
-
+<b>`Concert`</b>
+|Column name| Definition | 
+|-|-|
+|artist_name| The name of the artist |
+|venue| The place where the concert took place |
+|location| The location where the concert took place |
+|date| The date when the concert happened |
