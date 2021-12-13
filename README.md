@@ -71,6 +71,7 @@ The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 The required python libraries and version have been specified in requirements.txt.
 
 Install python dependencies by performing :
+
 pip install -r requirements.txt 
 
 ### How to run the code locally
