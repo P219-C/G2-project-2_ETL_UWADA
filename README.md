@@ -36,12 +36,12 @@ We have performed ETL in three steps:
 
 2. Transformation - python has been used as the tool for transformation of datasets using the Pandas Library.
 
-- We used a Pandas functions in Jupyter Notebook to transform all CSV files, scraped data, and API request responses.
-- We reviewed the files and transformed into a dataframes.
-- We used a python transformation functions for data cleaning, joining, filtering, and aggregating.
-- Several columns removed
-- Duplicate rows was removed, and successfully managed.
-- We conducted some aggregation to find totals for comparison in the datasets.
+- ??We used a Pandas functions in Jupyter Notebook to transform all CSV files, scraped data, and API request responses.
+- ??We reviewed the files and transformed into a dataframes.
+- ??We used a python transformation functions for data cleaning, joining, filtering, and aggregating.
+- ??Several columns removed
+- ??Duplicate rows was removed, and successfully managed.
+- ??We conducted some aggregation to find totals for comparison in the datasets.
 
 3. Loading - relational database PostgresSQL has been used to load the data.
 
