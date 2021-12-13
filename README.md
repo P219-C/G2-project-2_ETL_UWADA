@@ -1,10 +1,13 @@
 # G2-project-2_ETL_UWADA
 Group 2 - ETL project
 
-## Purpose and motivation
-The following ETL (Extract, Transform, Load) exercise creates a database with information of the top 100 songs (*The Hot 100*) from 
-*The Billboard* (https://www.billboard.com/charts/hot-100/);
-*The Spotify* (https://www.spotify.com).
+## Objective
+The objective is to perform the ETL (Extract-Transform-Load) process by reading the dataset of *The Billboard*, *The Spotify*, cleaning the dataset in the desired form and loading into a database for storage.
+
+## Data Sources
+- *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
+- *The Artist 100* - **Web Scraping** - https://www.billboard.com/charts/artist-100/
+- *The Spotify* - **Web Scraping** - https://www.spotify.com
 
 ## Solution
 
