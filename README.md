@@ -17,7 +17,7 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 #### Job schedule (screenshot)
 ### Load
 #### Entity Relationship Diagram
-![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(1).png)
+![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(2).png)
 
 #### Data dictionary
 <b>`Songs`</b>
