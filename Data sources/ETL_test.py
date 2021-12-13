@@ -6,7 +6,7 @@ import requests
 import pandas as pd
 
 ## Web Scrapping -  Hot 100
-import web_scraping
+from web_scraping import web_scraping
 # running the web scrapping function
 top_100_scrapped_df = web_scraping()
 # Spotify Data Search
@@ -43,10 +43,10 @@ sp = sp.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id=cl
 # function to extract data for any track using search
 # Note: The function below extracts song_title from the a table with column_header called 'song_title'
 
-import search_function
+from search_function import *
 # Iterating search function for each row of the top_100_scrapped_df 
 for index,row in top_100_scrapped_df.iterrows():
-    top_100_scrapped_df.loc[index,:] = search(row)
+    top_100_scrapped_df.loc[index,:] = my_search(row)
 
 # creating output csv for main table
 top_100_scrapped_df.to_csv('Output_CSV/top_100_scrapped_df.csv', index=False)
@@ -114,13 +114,72 @@ artist_list = artist_grouped_df['artist_name'].tolist()
 # printing the list
 artist_list
 # importing event_api function from events_api.py
-import events_api
+from events_api import *
 # generating event_df
-event_df = event_api(artist_list)
+initial_event_df = event_api(artist_list)
+
+initial_event_df
+#adding 'artist_spotify_ID' column
+merged_df = initial_event_df.merge(top_100_cleaned_df, on ='artist_name', how = 'inner')
+event_df = merged_df[['artist_spotify_ID', 'api_artist', 'venue', 'country','location','datetime']]
 # printing event_df
 event_df
 # generating csv file for concert_table
 event_df.to_csv('Output_CSV/event_df.csv')
 
 # displaying album_table
+event_df = event_df.drop_duplicates()
 event_df
+# SQL Alchemy ORM 
+from sqlalchemy import create_engine
+from sqlalchemy.engine import URL
+from sqlalchemy.dialects import postgresql
+from urllib.parse import quote_plus as urlquote
+from credentials import *
+import datetime as dt 
+connection_url = URL.create(
+    drivername = "postgresql", 
+    username = db_user,
+    password = db_password,
+    host = "localhost", 
+    port = 5432,
+    database = "music_ddl_create_table", 
+)
+
+engine = create_engine(connection_url)
+# Reflect postgresql database
+from sqlalchemy import MetaData
+metadata_obj = MetaData()
+metadata_obj.reflect(bind=engine)
+artist = metadata_obj.tables["artist"]
+songs = metadata_obj.tables["songs"]
+album = metadata_obj.tables["album"]
+concert = metadata_obj.tables["concert"]
+# Upsert: artist
+insert_statement = postgresql.insert(artist).values(artist_grouped_df.to_dict(orient='records'))
+upsert_statement = insert_statement.on_conflict_do_update(
+    index_elements=['artist_spotify_ID'],
+    set_={c.key: c for c in insert_statement.excluded if c.key not in ['artist_spotify_ID']})
+engine.execute(upsert_statement)
+# Upsert: songs
+insert_statement = postgresql.insert(songs).values(song_df.to_dict(orient='records'))
+upsert_statement = insert_statement.on_conflict_do_update(
+    index_elements=['song_ID'],
+    set_={c.key: c for c in insert_statement.excluded if c.key not in ['song_ID']})
+engine.execute(upsert_statement)
+
+# Upsert album
+insert_statement = postgresql.insert(album).values(album_grouped_df.to_dict(orient='records'))
+upsert_statement = insert_statement.on_conflict_do_update(
+    index_elements=['album_name'],
+    set_={c.key: c for c in insert_statement.excluded if c.key not in ['album_name']})
+engine.execute(upsert_statement)
+
+# Upsert concert
+insert_statement = postgresql.insert(concert).values(event_df.to_dict(orient='records'))
+upsert_statement = insert_statement.on_conflict_do_update(
+    index_elements=['artist_spotify_ID'],
+    set_={c.key: c for c in insert_statement.excluded if c.key not in ['artist_spotify_ID']})
+engine.execute(upsert_statement)
+print(f"ETL job completed at {dt.datetime.now()}")
+

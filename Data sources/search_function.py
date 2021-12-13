@@ -1,4 +1,17 @@
-def search(table):
+#Dependencies
+import spotipy as sp
+from spotipy.oauth2 import SpotifyClientCredentials
+import pandas as pd
+import numpy as np
+
+#Importing Spotify client_ID and secret_code
+from keys import client_id, client_secret
+
+scope = "user-library-read"
+
+sp = sp.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
+
+def my_search(table):
     #running spotipy search function
     song_search = table['song_title']
     # print(song_search)

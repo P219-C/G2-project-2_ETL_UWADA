@@ -9,8 +9,7 @@ song_ranking,artist_name,song_title
 8,Glass Animals,Heat Waves
 9,Ed Sheeran,Shivers
 10,Doja Cat,Need To Know
-11,Andy Williams,"
-It's The Most Wonderful Time Of The Year"
+11,Andy Williams,It's The Most Wonderful Time Of The Year
 12,Ed Sheeran,Bad Habits
 13,Elton John & Dua Lipa,Cold Heart (PNAU Remix)
 14,Silk Sonic (Bruno Mars & Anderson .Paak),Smokin Out The Window
@@ -40,7 +39,8 @@ It's The Most Wonderful Time Of The Year"
 38,The Weeknd & Ariana Grande,Save Your Tears
 39,Justin Bieber,Ghost
 40,Chuck Berry,Run Rudolph Run
-41,Drake Featuring 21 Savage & Project Pat,Knife Talk
+41,Drake Featuring 21 Savage & Project Pat,"Knife Talk
+"
 42,Jason Aldean & Carrie Underwood,If I Didn't Love You
 43,Lil Nas X,Thats What I Want
 44,Billie Eilish,Happier Than Ever
@@ -55,7 +55,7 @@ It's The Most Wonderful Time Of The Year"
 53,"Nardo Wick Featuring G Herbo, Lil Durk & 21 Savage",Who Want Smoke??
 54,Jordan Davis Featuring Luke Bryan,Buy Dirt
 55,Kodak Black,Super Gremlin
-56, Farruko,Pepas
+56,Farruko,Pepas
 57,Chris Stapleton,You Should Probably Leave
 58,Rod Wave,By Your Side
 59,Blxst & Tyga Featuring Ty Dolla $ign,Chosen
@@ -83,8 +83,7 @@ It's The Most Wonderful Time Of The Year"
 81,Priscilla Block,Just About Over You
 82,Taylor Swift,Christmas Tree Farm (Old Timey Version)
 83,Young Thug With Drake & Travis Scott,Bubbly
-84,Polo G,"
-Bad Man (Smooth Criminal)"
+84,Polo G,Bad Man (Smooth Criminal)
 85,Giveon,For Tonight
 86,Drake Featuring Travis Scott,Fair Trade
 87,Wale Featuring J. Cole,Poke It Out

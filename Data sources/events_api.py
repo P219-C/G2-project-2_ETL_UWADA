@@ -1,3 +1,11 @@
+import events_api
+import json
+from api_keys import BIT_api
+import pprint
+import os
+import requests
+import pandas as pd
+
 def event_api(artists):
     
     url_base = "https://rest.bandsintown.com/artists"

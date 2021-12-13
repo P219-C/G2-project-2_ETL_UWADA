@@ -1,7 +1,13 @@
+#Importing dependencies for web scrapping
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+
+
+
 def web_scraping():
     """
     Scrapes the Billboard webpage (https://www.billboard.com/charts/hot-100/) to extract information of the hot 100 songs.
-
     returns:
     - a list of lists with rankings, artists and songs (100 entries)
     """

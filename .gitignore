@@ -1,6 +1,8 @@
 .DS_Store
 api_keys.py
 credentials.py
+keys.py
+events_api.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
