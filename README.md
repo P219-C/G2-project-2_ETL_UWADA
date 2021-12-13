@@ -13,13 +13,13 @@ The objective is to perform the ETL (Extract-Transform-Load) process by reading 
 **We have performed ETL in three steps**:
 
 **_Extraction_**: 
-The data was web scraped from a public platforms *The Billboard*, *The Spotify* and formatted as .cvs files.
+Billboard’s Hot 100 song data scrapped from the website. Further data from the songs extracted from Spotify (for Developers) website through multiple API calls.
 
 **_Transformation_**: 
-Python has been used as the tool for transformation of datasets using the Pandas Library.
+Python used as the tool for transformation of datasets using the Pandas Library.
 
 **_Loading_**: 
-Relational database PostgressSQL has been used to load the data.
+Cleaned data loaded onto relational database PostgreSQL.
 
 ## ERD and Data Dictionary
 
