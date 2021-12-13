@@ -1,8 +1,3 @@
-from bs4 import BeautifulSoup
-import requests
-import pandas as pd
-
-
 def web_scraping():
     """
     Scrapes the Billboard webpage (https://www.billboard.com/charts/hot-100/) to extract information of the hot 100 songs.
@@ -38,11 +33,17 @@ def web_scraping():
             hot_song = result.find('h3', class_='c-title').text
             hot_ranking_artist = result.find_all('span', class_='c-label')
 
-        hot_song = hot_song[1:len(hot_song)-1]
-        hot_artist = hot_artist[1:len(hot_artist)-1]
-        hot_ranking = hot_ranking[1:len(hot_ranking)-1]
-        hot_list.append([hot_ranking, hot_artist, hot_song])
-        # print(f'{hot_ranking}.- "{hot_song}" by {hot_artist}')
+            hot_ranking = hot_ranking_artist[0].text
+
+            if len(hot_ranking_artist) == 10:
+                hot_artist = hot_ranking_artist[3].text
+            else:
+                hot_artist = hot_ranking_artist[1].text
+            # print(len(hot_ranking_artist), hot_ranking_artist)
+
+            hot_song = hot_song[1:len(hot_song)-1]
+            hot_artist = hot_artist[1:len(hot_artist)-1]
+            hot_ranking = hot_ranking[1:len(hot_ranking)-1]
 
             
 
@@ -52,14 +53,16 @@ def web_scraping():
         except AttributeError as e:
             print(e)
 
-# for hot_entry in hot_list:
-#     print(hot_entry)
+    # for hot_entry in hot_list:
+    #     print(hot_entry)
 
-#date
-from datetime import datetime
-scrapped_date = datetime.today().strftime('%Y-%m-%d')
-    
-#saving hot_list in a csv file
-df = pd.DataFrame(hot_list, columns = ["song_ranking", "artist_name", "song_title"])
+    #date
+    from datetime import datetime
+    scrapped_date = datetime.today().strftime('%Y-%m-%d')
+        
+    #saving hot_list in a csv file
+    top_100_scrapped_df = pd.DataFrame(hot_list, columns = ["song_ranking", "artist_name", "song_title"])
 
-df.to_csv(f'Top_100_Scrapped/scrapped_top100({scrapped_date}).csv')
+    top_100_scrapped_df.to_csv(f'Top_100_Scrapped/scrapped_top100({scrapped_date}).csv', index = False)
+
+    return top_100_scrapped_df

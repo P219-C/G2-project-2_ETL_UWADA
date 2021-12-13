@@ -1,55 +1,45 @@
-#Dependencies
-import spotipy as sp
-from spotipy.oauth2 import SpotifyClientCredentials
-import pandas as pd
-
-#Importing Spotify client_ID and secret_code
-from keys import client_id, client_secret
-
-#scrapped_date
-from datetime import datetime
-
 def search(table):
     #running spotipy search function
+    song_search = table['song_title']
+    # print(song_search)
     results = sp.search(q='track:' + table['song_title'], type = 'track')
     tracks = results ['tracks']['items']
+    
     if len(tracks) == 0:
-        raise Exception('Song details not found') 
-    #extracting spotify ID for the track **Important to make further API calls**
-    table['track_spotify ID'] = tracks[0]['id']
-    table['artist_spotify ID'] = tracks[0]['album']['artists'][0]['id']
+        print(f'Song details not found for {song_search}')
 
-    #song_table: song_duration,release_date
+    else:
+        #extracting spotify ID for the track **Important to make further API calls**
+        table['track_spotify_ID'] = tracks[0]['id']
+        table['artist_spotify_ID'] = tracks[0]['album']['artists'][0]['id']
 
-    try:
-        table['song_duration[ms]'] = tracks[0]['duration_ms']
-    except:
-        table['song_duration[ms]'] = ""
+        #top_100_scrapped_df: song_duration,release_date
 
-    try:
-        table['release_date'] = tracks[0]['album']['release_date']
-    except:
-        table['release_date'] = ""
+        try:
+            table['song_duration[ms]'] = tracks[0]['duration_ms']
+        except:
+            table['song_duration[ms]'] = np.nan 
 
-    try:
-        table['popularity'] = tracks[0]['popularity']  
-    except:
-        table['popularity'] = ""
+        try:
+            table['song_release_date'] = tracks[0]['album']['release_date']
+        except:
+            table['song_release_date'] = np.nan 
 
-    # genre_table: genre
-    try:
-        table['song_genre'] = tracks[0]['genre']
-    except:
-        table['song_genre'] = ""
+        try:
+            table['spotify_popularity'] = tracks[0]['popularity']  
+        except:
+            table['spotify_popularity'] = np.nan 
 
-    # album_table: album_name, album_type 
-    try:
-        table['album_name'] = tracks[0]['album']['name']
-    except:
-        table['album_name'] = ""
-    try:
-        table['album_type'] = tracks[0]['album']['album_type']
-    except:
-        table['album_type'] = ""
+        # album_table: album_type 
+        try:
+            table['album_name'] = tracks[0]['album']['name']
+        except:
+            table['album_name'] = np.nan 
+
+        # album_table: album_type 
+        try:
+            table['album_type'] = tracks[0]['album']['album_type']
+        except:
+            table['album_type'] = np.nan 
 
     return table
