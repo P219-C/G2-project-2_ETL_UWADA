@@ -6,15 +6,13 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 
 ## Solution
 
-### Solution architecture
-### Extract:
-#### Data sources
-- *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
+We have performed ETL in three steps:
 
-### Transform
-#### Transformation scripts
-#### Job schedule (screenshot)
-### Load
+Extraction: the data was web scraped from a public platform *The Billboard* and formatted as .cvs files.
+Transformation: ??python has been used as the tool for transformation of datasets using the Pandas Library.
+Loading: relational database PostgressSQL has been used to load the data.
+
+
 #### Entity Relationship Diagram
 ![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(2).png)
 
