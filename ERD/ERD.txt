@@ -13,7 +13,7 @@ artist_spotify_ID VARCHAR FK >- Artist.artist_spotify_ID
 song_ranking INTEGER
 spotify_popularity INTEGER
 song_duration(ms) INTEGER
-song_release_date DATE
+song_release_date VARCHAR
 
 Album
 --
@@ -26,5 +26,3 @@ artist_spotify_ID VARCHAR FK >- Artist.artist_spotify_ID
 api_artist VARCHAR
 venue VARCHAR
 country VARCHAR
-location VARCHAR
-datetime DATA
