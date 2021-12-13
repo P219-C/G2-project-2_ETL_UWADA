@@ -17,7 +17,7 @@ The objective is to perform the ETL (Extract-Transform-Load) process by reading 
 The data was web scraped from a public platforms *The Billboard*, *The Spotify* and formatted as .cvs files.
 
 **_Transformation_**: 
-?? Python has been used as the tool for transformation of datasets using the Pandas Library.
+Python has been used as the tool for transformation of datasets using the Pandas Library.
 
 **_Loading_**: 
 Relational database PostgressSQL has been used to load the data.
