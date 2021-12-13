@@ -8,13 +8,13 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 
 We have performed ETL in three steps:
 
-# Extraction: 
+Extraction: 
 The data was web scraped from a public platform *The Billboard* and formatted as .cvs files.
 
-# Transformation: 
+Transformation: 
 ?? Python has been used as the tool for transformation of datasets using the Pandas Library.
 
-# Loading: 
+Loading: 
 Relational database PostgressSQL has been used to load the data.
 
 
