@@ -17,6 +17,7 @@ The data was web scraped from a public platform *The Billboard* and formatted as
 **_Loading_**: 
 Relational database PostgressSQL has been used to load the data.
 
+## ERD and Data Dictionary
 
 ### Entity Relationship Diagram
 ![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(2).png)
