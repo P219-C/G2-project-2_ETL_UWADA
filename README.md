@@ -6,7 +6,7 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 
 ## Solution
 
-We have performed ETL in three steps:
+**We have performed ETL in three steps**:
 
 **Extraction**: 
 The data was web scraped from a public platform *The Billboard* and formatted as .cvs files.
