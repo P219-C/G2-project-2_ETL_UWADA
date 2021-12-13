@@ -11,10 +11,10 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 **_Extraction_**: 
 The data was web scraped from a public platform *The Billboard* and formatted as .cvs files.
 
-**Transformation**: 
+**_Transformation_**: 
 ?? Python has been used as the tool for transformation of datasets using the Pandas Library.
 
-**Loading**: 
+**_Loading_**: 
 Relational database PostgressSQL has been used to load the data.
 
 
