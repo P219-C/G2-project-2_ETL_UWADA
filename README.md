@@ -20,7 +20,7 @@ Relational database PostgressSQL has been used to load the data.
 ## ERD and Data Dictionary
 
 ### Entity Relationship Diagram
-![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(2).png)
+![ERD](https://github.com/P219-C/G2-project-2_ETL_UWADA/blob/Oksana/ERD/QuickDBD-export%20(3).png)
 
 The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 
