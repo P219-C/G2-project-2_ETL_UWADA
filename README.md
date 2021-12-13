@@ -8,12 +8,40 @@ The objective is to perform the ETL (Extract-Transform-Load) process by reading 
 - *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
 - *The Artist 100* - **Web Scraping** - https://www.billboard.com/charts/artist-100/# Steps
 
-# Steps
+## Purpose and motivation
+The following ETL (Extract, Transform, Load) exercise creates a database with information of the top 100 songs (*The Hot 100*) from *The Billboard* (https://www.billboard.com/charts/hot-100/).
+
+## Solution
+
+### Solution architecture
+### Extract:
+#### Data sources
+- *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
+
+### Transform
+In order to transform the public data and use it in our ETL project we performed the following:
+- 
+Used Pandas functions in Jupyter Notebook to load all three CSV files.
+Reviewed the files and transformed into data frames
+Removed the operator’s column and the address column due to missing information which was not relevant to the focus of this study.
+Identified duplicates by doing an inner merge on the incident id column across all three data sets.
+Created queries to address our hypothesis by grouping the data by state and getting the sum of the number of people killed and the number of people injured. We sorted the data in descending order so we could visually see which state had the highest numbers.#### Transformation scripts
+
+### Load# 
+
+Steps
 We have performed ETL in three steps:
 
 1. Extraction - the data has been downloaded from public platform and formatted as .csv files.
 
 2. Transformation - python has been used as the tool for transformation of datasets using the Pandas Library.
+
+-We used a Pandas functions in Jupyter Notebook to transform all CSV files, scraped data, and API request responses.
+-We reviewed the files and transformed into a dataframes.
+We used a python transformation functions for data cleaning, joining, filtering, and aggregating.
+Several columns removed
+Duplicate rows was removed, and successfully managed.
+We conducted some aggregation to find totals for comparison in the datasets.
 
 3. Loading - relational database PostgresSQL has been used to load the data.
 
