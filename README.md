@@ -46,8 +46,10 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 <b>`Concert`</b>
 |Column name| Definition | 
 |-|-|
-|artist_name| The name of the artist |
+|artist_spotify_ID| The unique id for each artist |
+|api_artist| The api of the artist |
 |venue| The place where the concert took place |
+|country| The country where the concert took place |
 |location| The location where the concert took place |
 |date| The date when the concert happened |
 
