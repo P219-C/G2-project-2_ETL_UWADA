@@ -2,14 +2,16 @@
 Group 2 - ETL project
 
 ## Purpose and motivation
-The following ETL (Extract, Transform, Load) exercise creates a database with information of the top 100 songs (*The Hot 100*) from *The Billboard* (https://www.billboard.com/charts/hot-100/).
+The following ETL (Extract, Transform, Load) exercise creates a database with information of the top 100 songs (*The Hot 100*) from 
+*The Billboard* (https://www.billboard.com/charts/hot-100/);
+*The Spotify* (https://www.spotify.com).
 
 ## Solution
 
 **We have performed ETL in three steps**:
 
 **_Extraction_**: 
-The data was web scraped from a public platform *The Billboard* and formatted as .cvs files.
+The data was web scraped from a public platforms *The Billboard*, *The Spotify* and formatted as .cvs files.
 
 **_Transformation_**: 
 ?? Python has been used as the tool for transformation of datasets using the Pandas Library.
