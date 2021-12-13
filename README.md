@@ -41,7 +41,7 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 |Column name| Definition | 
 |-|-|
 |artist_name| The name of the artist |
-|artist_id| The unique id for each artist|
+|album_type| The type of the album |
 
 <b>`Concert`</b>
 |Column name| Definition | 
