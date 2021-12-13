@@ -6,7 +6,6 @@ The objective is to perform the ETL (Extract-Transform-Load) process by reading 
 
 ## Data Sources
 - *The Hot 100* - **Web Scraping** - https://www.billboard.com/charts/hot-100/
-- *The Artist 100* - **Web Scraping** - https://www.billboard.com/charts/artist-100/
 - *The Spotify* - **Web Scraping** - https://www.spotify.com
 
 ## Solution
