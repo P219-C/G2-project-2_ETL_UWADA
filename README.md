@@ -8,7 +8,7 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 
 We have performed ETL in three steps:
 
-Extraction: 
+**Extraction**: 
 The data was web scraped from a public platform *The Billboard* and formatted as .cvs files.
 
 Transformation: 
