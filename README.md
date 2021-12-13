@@ -69,7 +69,6 @@ The ERD diagram was created using: https://app.quickdatabasediagrams.com/#/
 
 ### Python dependencies
 The required python libraries and version have been specified in requirements.txt.
-
 Install python dependencies by performing :
 
 pip install -r requirements.txt 
