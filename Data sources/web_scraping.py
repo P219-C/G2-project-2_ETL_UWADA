@@ -62,4 +62,4 @@ scrapped_date = datetime.today().strftime('%Y-%m-%d')
 #saving hot_list in a csv file
 df = pd.DataFrame(hot_list, columns = ["song_ranking", "artist_name", "song_title"])
 
-df.to_csv(f'Data sources/scrapped_top100({scrapped_date}).csv')
+df.to_csv(f'Top_100_Scrapped/scrapped_top100({scrapped_date}).csv')
