@@ -23,12 +23,14 @@ The following ETL (Extract, Transform, Load) exercise creates a database with in
 <b>`Songs`</b>
 |Column name| Definition | 
 |-|-|
-|song_ranking|The ranking of the song| 
+|song_ID|The unique id for each song| 
 |song_title| The name of the song |
-|artist_name| The name of the artist |
-|artist_id| The unique id for each artist|
 |album_name| The name of the album |
-|duration| The duration of the song |
+|track_spotify_ID| The unique track id|
+|artist_spotify_ID| The unique id for each artist|
+|song_ranking| The ranking of the song|
+|spotify_popularity| The popularity of te song on Spotify |
+|album_name| The name of the album ||song_duration| The duration of the song |
 |song_release_date| The date song was released dd-mm-yyyy|
 
 <b>`Artist`</b>
